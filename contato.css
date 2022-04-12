@@ -1,0 +1,127 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color:  #292626;
+}
+header{
+    background:  #292626;
+    padding: 20px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292626;
+    color: #E1D9D1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar p{
+	margin: 2em;
+	
+}
+.logo{
+	width: 80px;
+	margin: 0 20px 0  20px;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #E1D9D1;
+    padding: 1.2rem;
+    display: block;
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+.navbar-links a:hover {
+    opacity: 0.7;
+    color: hsl(118, 78%, 44%);
+    padding-left: 2.5rem ;
+    transition: .3s;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #E1D9D1;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius:5px ;
+    transition: 1s ;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: hsl(118, 78%, 44%);
+    transform:  scale(1.2);
+}
+table{
+    margin: 20px 0 40px;
+    color: #E1D9D1;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td , th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+.copyright{
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;
+} 
+
+@media screen and (max-width: 480px) {
+	.caixa , .principal,.conteudo-beneficios, .mapa-conteudo,.video{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	.lista-beneficios,.imagen-beneficios{
+		width: 100%;
+	}
+}
